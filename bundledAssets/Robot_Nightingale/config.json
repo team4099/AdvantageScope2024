@@ -1,0 +1,115 @@
+{
+  "name": "Nightingale",
+  "sourceUrl": "https://cad.onshape.com/documents/469557e45fa9cad4b55a84b6/w/7eb0b3d20d7712d1d9f23b8a/e/7a19babb719fb2234b6a1905",
+  "rotations": [
+    {
+      "axis": "z",
+      "degrees": 90
+      
+    }, {
+      "axis": "y",
+      "degrees": 90
+    }
+  ],
+  "position": [0, 0, 0],
+  "cameras": [
+    {
+      "name": "Front Camera",
+      "rotations": [
+        {
+          "axis": "y",
+          "degrees": 20
+        }
+      ],
+      "position": [0.2, 0, 0.8],
+      "resolution": [960, 720],
+      "fov": 100
+    },
+    {
+      "name": "Back Camera",
+      "rotations": [
+        {
+          "axis": "y",
+          "degrees": 20
+        },
+        {
+          "axis": "z",
+          "degrees": 180
+        }
+      ],
+      "position": [-0.2, 0, 0.8],
+      "resolution": [960, 720],
+      "fov": 100
+    },
+    {
+      "name": "Left Camera",
+      "rotations": [
+        {
+          "axis": "y",
+          "degrees": 20
+        },
+        {
+          "axis": "z",
+          "degrees": 90
+        }
+      ],
+      "position": [0, 0.2, 0.8],
+      "resolution": [960, 720],
+      "fov": 90
+    },
+    {
+      "name": "Right Camera",
+      "rotations": [
+        {
+          "axis": "y",
+          "degrees": 20
+        },
+        {
+          "axis": "z",
+          "degrees": -90
+        }
+      ],
+      "position": [0, -0.2, 0.8],
+      "resolution": [960, 720],
+      "fov": 90
+    }
+  ],
+  "components": [
+    {
+      "zeroedRotations": [
+        {
+          "axis": "x",
+          "degrees": 90
+        }, 
+        {
+          "axis": "y",
+          "degrees": 0
+        },
+        {
+          "axis": "z",
+          "degrees": -90
+        }
+      ],
+      "zeroedPosition": [0.025, 0, 0]
+    },
+    {
+      "zeroedRotations": [
+        
+        
+        {
+          "axis": "y",
+          "degrees": -90
+        },
+        {
+          "axis": "z",
+          "degrees": 90
+        },
+        {
+          "axis": "x",
+          "degrees": 0
+        }
+      ],
+      "zeroedPosition": [0, 0, 0]
+    }
+  ]
+}
